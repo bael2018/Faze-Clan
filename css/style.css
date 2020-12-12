@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#top{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#top a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 13px;
+    word-spacing: 5px;
+}
+
+.info{
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.info div a img{
+    width: 70px;
+    margin-left: 30px;
+}
+
+.logo{
+    padding-top: 5px;
+}
+
+.icons{
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 27px;
+}
+
+.icons a{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 22px;
+    color: black;
+}
+
+.icons a:hover{
+    transition: 0.2s;
+    padding: 0px 5px;
+    border-left: 1px solid black;
+}
+
+.sylka1{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.sylka1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    word-spacing: 5px;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+.sylka1 a:hover{
+    border-bottom: 3px solid black;
+    padding-bottom: 28px;
+    transition: 0.1s;
+}
+
+/* header */
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url('../img/faze-scuf-controlers-banner_1400x.webp') top / cover no-repeat;
+    border-top: 1px solid rgb(177, 176, 176);
+}
+
+.lid{
+    padding-top: 580px;
+    padding-left: 80px;
+}
+
+.lid a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    word-spacing: 5px;
+    background-color: rgb(70, 69, 69);
+}
+
+.lid a:hover{
+    background-color: rgb(243, 32, 32);
+    transition: 1s;
+}
+
+.shopping{
+    text-align: center;
+    margin-top: 90px;
+    padding: 0px 50px;
+}
+
+.shopping p{
+    font-size: 23px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.shopping p:hover{
+    color: rgb(243, 32, 32);
+    transition: 1s;
+}
+
+.display1{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 40px;
+}
+
+.display1 .inside{
+    width: 32%;
+}
+
+.back{
+    background-color: rgb(207, 205, 205, 0.1);
+    width: 100%;
+    height: 300px;
+}
+
+.block{
+    background: url('../img/redslidetwo_1024x.webp') center / cover no-repeat;
+    width: 350px;
+    height:300px;
+    margin-left: 30px;
+}
+
+.block:hover{
+    background: url('../img/fazeslidesone_800x.webp') center / cover no-repeat;
+}
+
+.price{
+    display: inline-flex;
+    width: 100%;
+}
+
+.price img{
+    width: 30px;
+}
+
+.slide2{
+    margin-left: auto;
+    margin-right: 160px;
+}
+
+.slide1{
+    margin-left: 160px;
+    margin-right: 10px;
+}
+
+.slide1 a img{
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.slide2 img{
+    padding-top: 6px;
+}
+
+.inside{
+    margin: 0px 10px;
+}
+
+.inside p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.money{
+    margin-top: 10px;
+}
+
+.money a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 14px;
+}
+
+
+.block1{
+    background: url('../img/red1.png') center / cover no-repeat;
+    width: 350px;
+    height:300px;
+    margin-left: 30px;
+}
+
+.block1:hover{
+    background: url('../img/black1.png') center / cover no-repeat;
+}
+
+.block2{
+    background: url('../img/cap1.png') center / cover no-repeat;
+    width: 350px;
+    height:300px;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+
+.block2:hover{
+    background: url('../img/cap2.png') center / cover no-repeat;
+    width: 340px ;
+}
+
+.comment{
+    border-radius: 100%;
+    background-color: rgb(52, 52, 243);
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 999;
+    bottom: 3%;
+    cursor: pointer;
+    right: 3%;
+}
+
+.comment:hover{
+    background-color: rgb(88, 88, 224);
+}
+
+.comment i{
+    font-size: 25px;
+    color: white;
+}
+
+.display2{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 80px;
+}
+
+.display2 .inside{
+    width: 32%;
+}
+
+.block3{
+    background: url('../img/red-hoodie.webp') center / cover no-repeat;
+    width: 350px;
+    height:300px;
+    margin-left: 30px;
+}
+
+.block3:hover{
+    background: url('../img/black-hoodie.png') center / cover no-repeat;
+}
+
+.block4{
+    background: url('../img/red-tee.webp') center / cover no-repeat;
+    width: 350px;
+    height:300px;
+    margin-left: 30px;
+}
+
+.block4:hover{
+    background: url('../img/blue-tee.webp') center / cover no-repeat;
+}
+
+.block5{
+    background: url('../img/red-shorts.webp') center / cover no-repeat;
+    width: 350px;
+    height:300px;
+    margin-left: 30px;
+}
+
+.block5:hover{
+    background: url('../img/black-shorts.webp') center / cover no-repeat;
+}
+
+.ending{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.ending a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    background-color:rgb(29, 29, 29) ;
+    font-weight: 300;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+
+.ending a:hover{
+    background-color: rgb(243, 32, 32);
+    transition: 1s;
+}
+
+.display3{
+    width: 100%;
+    display: inline-flex;
+    padding-bottom: 100px;
+}
+
+.insides{
+    width: 25%;
+    margin: 0px 20px;
+}
+
+#insides1{
+    margin-left: 110px;
+}
+
+.block6{
+    background: url('../img/sock-black.webp') center / cover no-repeat;
+    width: 290px;
+    height:300px;
+    margin-left: 30px;
+}
+
+.block6:hover{
+    background: url('../img/sock-white.webp') center / cover no-repeat;
+}
+
+.price2{
+    display: inline-flex;
+    width: 100%;
+}
+
+.price2 img{
+    width: 30px;
+}
+
+
+.slide3{
+    margin-left: auto;
+    margin-right: 110px;
+}
+
+
+.slide4{
+    margin-left: 120px;
+    margin-right: 10px;
+}
+
+.slide4 a img{
+    padding: 4px;
+    border: 1px solid black;
+}
+
+.block7{
+    background: url('../img/FazeArcSL1000-White-Main.webp') center / cover no-repeat;
+    width: 270px;
+    height:300px;
+    margin-left: 30px;
+}
+
+.block7:hover{
+    background: url('../img/FazeArcSL1000-White-Front.webp') center / cover no-repeat;
+}
+
+
+.block8{
+    background: url('../imG/FazeArcSL1000-Red-Main.webp') center / cover no-repeat;
+    width: 270px;
+    height:300px;
+    margin-left: 30px;
+}
+
+.block8:hover{
+    background: url('../img/FazeArcSL1000-Red-Left.webp') center / cover no-repeat;
+}
+
+.display4{
+    width: 100%;
+    border-top: 1px solid rgb(211, 210, 210);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.display4 p{
+    font-size: 23px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.display4 p:hover{
+    color: rgb(243, 32, 32);
+    transition: 1s;
+}
+
+.picture2 {
+    width: 80%;
+    padding-left: 120px;
+    padding-bottom: 40px;
+}
+
+.picture2 img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.picture2 a{
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(211, 210, 210);
+}
+
+.picture2 a:hover{
+    color: black;
+}
+
+/* main */
+
+.main_footer{
+    width: 100%;
+    height: 80vh;
+    border-top: 1px solid rgb(211, 210, 210);
+}
+
+.footer_third{
+    width: 100%;
+    display: inline-flex;
+}
+
+.footer_third div img{
+    width: 250px;
+}
+
+.footer_left{
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 290px;
+}
+
+.footer_middle{
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.footer_right{
+    margin-left: auto;
+    margin-top: 70px;
+    margin-right: 70px;
+}
+
+.footer_left input{
+    width: 250px;
+    outline: none;
+    padding: 15px;
+    word-spacing: 5px;
+    border:  1px solid rgb(211, 210, 210);
+}
+
+.footer_left button{
+    padding: 10px 20px;
+    margin-top:25px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer_left button:hover{
+    background-color: rgb(243, 32, 32);
+    transition: 1s;
+}
+
+.footer_third div .para5{
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+
+.footer_left p{
+    word-spacing: 5px;
+    font-weight: 300;
+    color: gray;
+}
+
+.footer_middle a{
+    color: gray;
+    font-size: 20px;
+    margin-left: 23px;
+}
+
+.footer_middle a:hover{
+    color: black;
+}
+
+.footer_middle .under{
+    padding-top: 20px;
+}
+
+.footer_middle .under a{
+    margin: 0px;
+}
+
+.footer_right a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 300;
+}
+
+.footer_third a:hover{
+    color: black;
+}
+
+.faze{
+    margin-left: 70px;
+}
+
+.faze p{
+    word-spacing: 5px;
+    color: gray;
+    font-weight: 400;
+}
